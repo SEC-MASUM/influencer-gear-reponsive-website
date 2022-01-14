@@ -6,3 +6,85 @@ font-family: 'Manrope', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
+
+/* --------------------------
+    COMMON OR UTILITY STYLE 
+---------------------------*/
+:root {
+  --primary-color: #e02c6d;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.btn {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 24px;
+}
+
+/*----------------
+     NAVBAR STYLE
+----------------- */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 87px;
+  margin-bottom: 50px;
+}
+
+.navbar-content {
+  display: flex;
+}
+.navbar-content ul > li {
+  display: inline;
+  margin-left: 34px;
+}
+.navbar-content ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+/* --------------------
+    Influencer Section
+---------------------*/
+.influencer-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 70px;
+}
+.influencer-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.influencer-left a {
+  text-decoration: none;
+  border-radius: 41px;
+}
+.influencer-right {
+  display: flex;
+  justify-content: center;
+}
+.influencer-right > img {
+  position: relative;
+  padding: 20px;
+  border-radius: 50%;
+  border: 3px solid #f1e4ff;
+}
+.background-color {
+  position: absolute;
+  background-color: #f1e4ff;
+  width: 320px;
+  height: 320px;
+  top: 240px;
+  border-radius: 50%;
+}
