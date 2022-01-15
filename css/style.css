@@ -54,9 +54,9 @@ body {
   color: black;
 }
 
-/* --------------------
-    Influencer Section
----------------------*/
+/* ---------------------------
+    Influencer Section Style
+------------------------------*/
 .influencer-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -85,7 +85,7 @@ body {
   border-radius: 41px;
   color: white;
 }
-.btn .icon {
+.icon {
   margin-left: 10px;
 }
 .influencer-right {
@@ -105,4 +105,119 @@ body {
   height: 320px;
   top: 240px;
   border-radius: 50%;
+}
+
+/* -----------------------
+  Popular Collection Styke
+  --------------------- */
+.section-heading {
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.popular-collection {
+  width: 1050px;
+  margin: 0 auto 100px;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 30px;
+  column-gap: 30px;
+  margin-bottom: 50px;
+}
+.product-card {
+  width: 330px;
+  height: 475px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.product-info img {
+  width: 300px;
+  height: 256px;
+  margin-bottom: 16px;
+}
+.product-title {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+.product-price {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 5px 0;
+}
+.rating {
+  display: flex;
+  padding: 5px 0;
+}
+.rating p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+.rating p i {
+  color: #fb8200;
+}
+.rating p i:last-child {
+  color: #8f8f8f;
+}
+.rating p:last-child {
+  margin-left: 10px;
+}
+.additional-info {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #787885;
+}
+.see-more {
+  display: flex;
+  justify-content: flex-end;
+  color: var(--primary-color);
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  align-items: center;
+}
+
+/* -------------------
+  FOOTER STYLE
+---------------------- */
+.footer-container {
+  width: 100%;
+  height: 240px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-container p{
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 5px 0;
+}
+.socila-icon a {
+  /* display: flex; */
+  width: 32px;
+  height: 32px;
+  margin-left: 8px;
+  margin-right: 8px;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 100px;
+  /* align-content: center; */
+}
+.socila-icon a i {
+  display: inline-block;
+  padding: 5px;
 }
