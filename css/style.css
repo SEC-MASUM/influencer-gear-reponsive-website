@@ -28,6 +28,8 @@ body {
   background-color: var(--primary-color);
   color: white;
   padding: 10px 24px;
+  display: flex;
+  align-items: center;
 }
 
 /*----------------
@@ -66,9 +68,25 @@ body {
   justify-content: center;
   align-items: flex-start;
 }
+.influencer-left h1 {
+  font-size: 52px;
+  /* font-weight: 700; */
+  margin-bottom: 16px;
+}
+.influencer-left p {
+  width: 80%;
+  font-size: 16px;
+  line-height: 1.7em;
+  margin-bottom: 27px;
+  text-align: justify;
+}
 .influencer-left a {
   text-decoration: none;
   border-radius: 41px;
+  color: white;
+}
+.btn .icon {
+  margin-left: 10px;
 }
 .influencer-right {
   display: flex;
